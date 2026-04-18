@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary SPA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dictionary App</h1>
+        <form id="searchForm">
+            <input type="text" id="wordinput" placeholder="enter a word..." required>
+            <button type="submit">search</button>
+        </form>
+
+        <div id="result">
+            <h2 id="word"></h2>
+            <p id="Definition"></p>
+            <p id="Example"></p>
+            <button id="audioBtn" style="display:none;">audio</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
